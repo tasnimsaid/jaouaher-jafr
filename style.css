@@ -1,0 +1,154 @@
+body{
+    background:rgb(0, 0, 0);  
+}
+#container{
+    width:1200px;
+    margin:auto;
+    
+}
+header{
+    height:30px;
+    background:rgb(0, 0, 0);
+    color: azure;
+}
+
+
+main{
+    width : 700px;
+    height:600px;
+    background:rgb(0, 0, 0);
+    float : right ;
+    justify-content:"center";
+    justify-items : "center";
+    display :"center";
+    
+}
+
+aside{
+    width :500px;
+    height : 600px;
+    background:rgb(0, 0, 0);
+    float : left;
+    
+}
+.finaltest{
+    justify-content: center;
+    color: white;
+    text-justify: center;
+    margin : auto;
+    
+    padding : 1px;
+    font-size : x-large ;
+    text-align : center;
+    position: relative;
+   
+}
+
+
+
+
+.textarea1{
+
+height:400px;
+width : 200px;
+color : white;
+background : black ;
+border: 1px solid blue;
+border-radius: 7px;
+
+
+}
+
+.best{
+    margin : auto;
+    bottom : 50px;
+    padding : 5px;
+    font-size : x-large ;
+    text-align : center;
+}
+
+
+
+th{
+    color:cyan;
+    border:2px solid blue;
+
+}
+
+td{
+    color:white;
+    border:2px solid blue;
+
+}
+
+
+table{
+
+    justify-content:center;
+    justify-items:center;
+    font-size:large;
+    border:2px solid blue;
+    text-align:center;
+    direction:right;
+
+    background:black;
+   
+
+
+    
+}
+
+.h_class{
+    color :blue;
+    font-size: x-large;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    position: relative;
+   
+}
+
+.img_sonny{
+    width:500px  ;
+
+
+}
+
+.inputa{
+    height:300px;
+    width:400px;
+    background : blue;
+}
+
+.x{
+    color:red;
+    
+    
+
+}
+.best4{
+    color: rgb(255, 255, 255);
+   
+}
+
+.linkyou{
+    color: blue;
+}
+
+.eljafr{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    justify-items: center;
+    left: 25%;
+}
+
+
+.haram{
+
+    writing-mode : vertical-lr ;
+   
+   }
+   
+
+

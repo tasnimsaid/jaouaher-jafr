@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div id = "container">
+    
+
+    <header>
+        <div>
+        
+        </div>
+    </header>
+
+    <aside>
+        <form>
+    
+            <textarea dir="rtl" placeholder ="ضع نص الرسالة هنا" class ="textarea1" id="text" onkeypress="countWord() ,countWords()"  style="height: 204px; width: 485px;"></textarea>
+          
+        </form> 
+<div class = "h_class">
+
+    <h1 class="eljafr">  الجواهر : خاصّة الخاصّة </h1>
+    <h1 class="eljafr">   الأبجدية المغربية </h1>
+</div>
+       
+
+        <table class ="best">
+
+
+            <tr >
+                
+                <td  id="best6" class ="best6"></td>
+                <th  class ="best5">عدد حروف النص</th>
+           
+    
+    
+            </tr>
+
+            <tr >
+               
+                <td id ="best4"></td>
+                <th class ="best2">عدد كلمات هذا النص </th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="best3" class ="best3"></td>
+                <th  class ="best1">القيمة العددية لهذا النص</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="jasad" class ="best3"></td>
+                <th  class ="best1">الجسد</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="rouh" class ="best3"></td>
+                <th  class ="best1">الروح </th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="nafs" class ="best3"></td>
+                <th  class ="best1">النفس </th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="dam" class ="best3"></td>
+                <th  class ="best1">الدم</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="akl" class ="best3"></td>
+                <th  class ="best1">العقل</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="koua" class ="best3"></td>
+                <th  class ="best1">القوة الطبيعية</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="kolia" class ="best3"></td>
+                <th  class ="best1">القوة الكلية </th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="hassa" class ="best3"></td>
+                <th  class ="best1">الحاسة</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="haraka" class ="best3"></td>
+                <th  class ="best1">الحركة</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="chahoua" class ="best3"></td>
+                <th  class ="best1">الشهوة</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="kalb" class ="best3"></td>
+                <th  class ="best1">القلب</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="dimagh" class ="best3"></td>
+                <th  class ="best1">الدماغ</th>
+           
+    
+    
+            </tr>
+            <tr >
+                
+                <td  id="kamel" class ="best3"></td>
+                <th  class ="best1">الإنسان الكامل</th>
+           
+    
+    
+            </tr>
+            
+        </table>
+      
+
+       
+      
+        <div >
+     
+</div>
+    </aside>
+
+
+    <main>
+       
+
+    <table>
+        <tr >
+            <th class = "haram">الحرف</th>
+            <th class = "haram">  جفر مغربي</th>
+            <th class = "haram"> مضروب</th>
+            <th class = "haram">الجسد</th>
+            <th class = "haram">  الروح   </th>
+            <th class = "haram">النفس</th>
+            <th class = "haram">الدم</th>
+            <th class = "haram">العقل</th>
+            <th class = "haram">القوة الطبيعية</th>
+            <th class = "haram">القوة الكلية</th>
+            <th class = "haram">الحاسة</th>
+            <th class = "haram">الحركة</th>
+            <th class = "haram">الشهوة</th>
+            <th class = "haram">القلب</th>
+            <th class = "haram">الدماغ</th>
+            <th class = "haram">الإنسان الكامل</th>
+
+
+        </tr>
+        <tr>
+            <td>أ</td>
+            <td>1</td>
+            <td class = "x">*</td>
+            <td id="alif"></td>
+            <td id="alif1"></td>
+            <td id="nafs_alif"></td>
+            <td id="dam_alif"></td>
+            <td id="akl_alif"></td>
+            <td id="koua_alif"></td>
+            <td id="kolia_alif"></td>
+            <td id="hassa_alif"></td>
+            <td id="haraka_alif"></td>
+            <td id="chahoua_alif"></td>
+            <td id="kalb_alif"></td>
+            <td id="dimagh_alif"></td>
+            <td id="kamel_alif"></td>
+        </tr>
+
+
+        <tr>
+            <td>ب</td>
+            <td>2</td>
+            <td class = "x">*</td>
+            <td id="baa"></td>
+            <td id="baa2"></td>
+            <td id="nafs_baa"></td>
+            <td id="dam_baa"></td>
+            <td id="akl_baa"></td>
+            <td id="koua_baa"></td>
+            <td id="kolia_baa"></td>
+            <td id="hassa_baa"></td>
+            <td id="haraka_baa"></td>
+            <td id="chahoua_baa"></td>
+            <td id="kalb_baa"></td>
+            <td id="dimagh_baa"></td>
+            <td id="kamel_baa"></td>
+        </tr>
+
+
+        <tr>
+            <td>ج</td>
+            <td>3</td>
+            <td class = "x">*</td>
+            <td id="jim"></td>
+            <td id="jim3"></td>
+            <td id="nafs_jim"></td>
+            <td id="dam_jim"></td>
+            <td id="akl_jim"></td>
+            <td id="koua_jim"></td>
+            <td id="kolia_jim"></td>
+            <td id="hassa_jim"></td>
+            <td id="haraka_jim"></td>
+            <td id="chahoua_jim"></td>
+            <td id="kalb_jim"></td>
+            <td id="dimagh_jim"></td>
+            <td id="kamel_jim"></td>
+        </tr>
+
+
+        <tr>
+            <td>د</td>
+            <td>4</td>
+            <td class = "x">*</td>
+            <td id="dal"></td>
+            <td id="dal4"></td>
+            <td id="nafs_dal"></td>
+            <td id="dam_dal"></td>
+            <td id="akl_dal"></td>
+            <td id="koua_dal"></td>
+            <td id="kolia_dal"></td>
+            <td id="hassa_dal"></td>
+            <td id="haraka_dal"></td>
+            <td id="chahoua_dal"></td>
+            <td id="kalb_dal"></td>
+            <td id="dimagh_dal"></td>
+            <td id="kamel_dal"></td>
+        </tr>
+
+
+        <tr>
+            <td>ه</td>
+            <td>5</td>
+            <td class = "x">*</td>
+            <td id="haae"></td>
+            <td id="haae5"></td>
+            <td id="nafs_haae"></td>
+            <td id="dam_haae"></td>
+            <td id="akl_haae"></td>
+            <td id="koua_haae"></td>
+            <td id="kolia_haae"></td>
+            <td id="hassa_haae"></td>
+            <td id="haraka_haae"></td>
+            <td id="chahoua_haae"></td>
+            <td id="kalb_haae"></td>
+            <td id="dimagh_haae"></td>
+            <td id="kamel_haae"></td>
+        </tr>
+
+        <tr>
+            <td>و</td>
+            <td>6</td>
+            <td class = "x">*</td>
+            <td id="ouaou"></td>
+            <td id="ouaou6"></td>
+            <td id="nafs_ouaou"></td>
+            <td id="dam_ouaou"></td>
+            <td id="akl_ouaou"></td>
+            <td id="koua_ouaou"></td>
+            <td id="kolia_ouaou"></td>
+            <td id="hassa_ouaou"></td>
+            <td id="haraka_ouaou"></td>
+            <td id="chahoua_ouaou"></td>
+            <td id="kalb_ouaou"></td>
+            <td id="dimagh_ouaou"></td>
+            <td id="kamel_ouaou"></td>
+        </tr>
+
+
+        <tr>
+            <td>ز</td>
+            <td>7</td>
+            <td class = "x">*</td>
+            <td id="zay"></td>
+            <td id="zay7"></td>
+            <td id="nafs_zay"></td>
+            <td id="dam_zay"></td>
+            <td id="akl_zay"></td>
+            <td id="koua_zay"></td>
+            <td id="kolia_zay"></td>
+            <td id="hassa_zay"></td>
+            <td id="haraka_zay"></td>
+            <td id="chahoua_zay"></td>
+            <td id="kalb_zay"></td>
+            <td id="dimagh_zay"></td>
+            <td id="kamel_zay"></td>
+        </tr>
+
+        <tr>
+            <td>ح</td>
+            <td>8</td>
+            <td class = "x">*</td>
+            <td id="haa"></td>
+            <td id="haa8"></td>
+            <td id="nafs_haa"></td>
+            <td id="dam_haa"></td>
+            <td id="akl_haa"></td>
+            <td id="koua_haa"></td>
+            <td id="kolia_haa"></td>
+            <td id="hassa_haa"></td>
+            <td id="haraka_haa"></td>
+            <td id="chahoua_haa"></td>
+            <td id="kalb_haa"></td>
+            <td id="dimagh_haa"></td>
+            <td id="kamel_haa"></td>
+        </tr>
+
+
+        <tr>
+            <td>ط</td>
+            <td>9</td>
+            <td class = "x">*</td>
+            <td id="ttae"></td>
+            <td id="ttae9"></td>
+            <td id="nafs_ttae"></td>
+            <td id="dam_ttae"></td>
+            <td id="akl_ttae"></td>
+            <td id="koua_ttae"></td>
+            <td id="kolia_ttae"></td>
+            <td id="hassa_ttae"></td>
+            <td id="haraka_ttae"></td>
+            <td id="chahoua_ttae"></td>
+            <td id="kalb_ttae"></td>
+            <td id="dimagh_ttae"></td>
+            <td id="kamel_ttae"></td>
+        </tr>
+
+        <tr>
+            <td>ي</td>
+            <td>10</td>
+            <td class = "x">*</td>
+            <td id="yaa"></td>
+            <td id="yaa10"></td>
+            <td id="nafs_yaa"></td>
+            <td id="dam_yaa"></td>
+            <td id="akl_yaa"></td>
+            <td id="koua_yaa"></td>
+            <td id="kolia_yaa"></td>
+            <td id="hassa_yaa"></td>
+            <td id="haraka_yaa"></td>
+            <td id="chahoua_yaa"></td>
+            <td id="kalb_yaa"></td>
+            <td id="dimagh_yaa"></td>
+            <td id="kamel_yaa"></td>
+        </tr>
+
+
+        <tr>
+            <td>ك</td>
+            <td>20</td>
+            <td class = "x">*</td>
+            <td id="kaf"></td>
+            <td id="kaf11"></td>
+            <td id="nafs_kaf"></td>
+            <td id="dam_kaf"></td>
+            <td id="akl_kaf"></td>
+            <td id="koua_kaf"></td>
+            <td id="kolia_kaf"></td>
+            <td id="hassa_kaf"></td>
+            <td id="haraka_kaf"></td>
+            <td id="chahoua_kaf"></td>
+            <td id="kalb_kaf"></td>
+            <td id="dimagh_kaf"></td>
+            <td id="kamel_kaf"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>ل</td>
+            <td>30</td>
+            <td class = "x">*</td>
+            <td id="laa"></td>
+            <td id="laa12"></td>
+            <td id="nafs_laa"></td>
+            <td id="dam_laa"></td>
+            <td id="akl_laa"></td>
+            <td id="koua_laa"></td>
+            <td id="kolia_laa"></td>
+            <td id="hassa_laa"></td>
+            <td id="haraka_laa"></td>
+            <td id="chahoua_laa"></td>
+            <td id="kalb_laa"></td>
+            <td id="dimagh_laa"></td>
+            <td id="kamel_laa"></td>
+        </tr>
+
+        <tr>
+            <td>م</td>
+            <td>40</td>
+            <td class = "x">*</td>
+            <td id="mim"></td>
+            <td id="mim13"></td>
+            <td id="nafs_mim"></td>
+            <td id="dam_mim"></td>
+            <td id="akl_mim"></td>
+            <td id="koua_mim"></td>
+            <td id="kolia_mim"></td>
+            <td id="hassa_mim"></td>
+            <td id="haraka_mim"></td>
+            <td id="chahoua_mim"></td>
+            <td id="kalb_mim"></td>
+            <td id="dimagh_mim"></td>
+            <td id="kamel_mim"></td>
+        </tr>
+
+
+        <tr>
+            <td>ن</td>
+            <td>50</td>
+            <td class = "x">*</td>
+            <td id="noon"></td>
+            <td id="noon14"></td>
+            <td id="nafs_noon"></td>
+            <td id="dam_noon"></td>
+            <td id="akl_noon"></td>
+            <td id="koua_noon"></td>
+            <td id="kolia_noon"></td>
+            <td id="hassa_noon"></td>
+            <td id="haraka_noon"></td>
+            <td id="chahoua_noon"></td>
+            <td id="kalb_noon"></td>
+            <td id="dimagh_noon"></td>
+            <td id="kamel_noon"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ص</td>
+            <td>60</td>
+            <td class = "x">*</td>
+            <td id="saad"></td>
+            <td id="saad18"></td>
+            <td id="nafs_saad"></td>
+            <td id="dam_saad"></td>
+            <td id="akl_saad"></td>
+            <td id="koua_saad"></td>
+            <td id="kolia_saad"></td>
+            <td id="hassa_saad"></td>
+            <td id="haraka_saad"></td>
+            <td id="chahoua_saad"></td>
+            <td id="kalb_saad"></td>
+            <td id="dimagh_saad"></td>
+            <td id="kamel_saad"></td>
+        </tr>
+
+        <tr>
+            <td>ع</td>
+            <td>70</td>
+            <td class = "x">*</td>
+            <td id="ine"></td>
+            <td id="ine16"></td>
+            <td id="nafs_ine"></td>
+            <td id="dam_ine"></td>
+            <td id="akl_ine"></td>
+            <td id="koua_ine"></td>
+            <td id="kolia_ine"></td>
+            <td id="hassa_ine"></td>
+            <td id="haraka_ine"></td>
+            <td id="chahoua_ine"></td>
+            <td id="kalb_ine"></td>
+            <td id="dimagh_ine"></td>
+            <td id="kamel_ine"></td>
+        </tr>
+
+
+        <tr>
+            <td>ف</td>
+            <td>80</td>
+            <td class = "x">*</td>
+            <td id="faa"></td>
+            <td id="faa17"></td>
+            <td id="nafs_faa"></td>
+            <td id="dam_faa"></td>
+            <td id="akl_faa"></td>
+            <td id="koua_faa"></td>
+            <td id="kolia_faa"></td>
+            <td id="hassa_faa"></td>
+            <td id="haraka_faa"></td>
+            <td id="chahoua_faa"></td>
+            <td id="kalb_faa"></td>
+            <td id="dimagh_faa"></td>
+            <td id="kamel_faa"></td>
+        </tr>
+
+
+        <tr>
+            <td>ض</td>
+            <td>90</td>
+            <td class = "x">*</td>
+            <td id="daa"></td>
+            <td id="daa26"></td>
+            <td id="nafs_daa"></td>
+            <td id="dam_daa"></td>
+            <td id="akl_daa"></td>
+            <td id="koua_daa"></td>
+            <td id="kolia_daa"></td>
+            <td id="hassa_daa"></td>
+            <td id="haraka_daa"></td>
+            <td id="chahoua_daa"></td>
+            <td id="kalb_daa"></td>
+            <td id="dimagh_daa"></td>
+            <td id="kamel_daa"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>ق</td>
+            <td>100</td>
+            <td class = "x">*</td>
+            <td id="ppaf"></td>
+            <td id="ppaf19"></td>
+            <td id="nafs_ppaf"></td>
+            <td id="dam_ppaf"></td>
+            <td id="akl_ppaf"></td>
+            <td id="koua_ppaf"></td>
+            <td id="kolia_ppaf"></td>
+            <td id="hassa_ppaf"></td>
+            <td id="haraka_ppaf"></td>
+            <td id="chahoua_ppaf"></td>
+            <td id="kalb_ppaf"></td>
+            <td id="dimagh_ppaf"></td>
+            <td id="kamel_ppaf"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ر</td>
+            <td>200</td>
+            <td class = "x">*</td>
+            <td id="raa"></td>
+            <td id="raa20"></td>
+            <td id="nafs_raa"></td>
+            <td id="dam_raa"></td>
+            <td id="akl_raa"></td>
+            <td id="koua_raa"></td>
+            <td id="kolia_raa"></td>
+            <td id="hassa_raa"></td>
+            <td id="haraka_raa"></td>
+            <td id="chahoua_raa"></td>
+            <td id="kalb_raa"></td>
+            <td id="dimagh_raa"></td>
+            <td id="kamel_raa"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>س</td>
+            <td>300</td>
+            <td class = "x">*</td>
+            <td id="sin"></td>
+            <td id="sin15"></td>
+            <td id="nafs_sin"></td>
+            <td id="dam_sin"></td>
+            <td id="akl_sin"></td>
+            <td id="koua_sin"></td>
+            <td id="kolia_sin"></td>
+            <td id="hassa_sin"></td>
+            <td id="haraka_sin"></td>
+            <td id="chahoua_sin"></td>
+            <td id="kalb_sin"></td>
+            <td id="dimagh_sin"></td>
+            <td id="kamel_sin"></td>
+        </tr>
+
+       
+
+
+
+
+
+  
+
+        <tr>
+            <td>ت</td>
+            <td>400</td>
+            <td class = "x">*</td>
+            <td id="taa"></td>
+            <td id="taa22"></td>
+            <td id="nafs_taa"></td>
+            <td id="dam_taa"></td>
+            <td id="akl_taa"></td>
+            <td id="koua_taa"></td>
+            <td id="kolia_taa"></td>
+            <td id="hassa_taa"></td>
+            <td id="haraka_taa"></td>
+            <td id="chahoua_taa"></td>
+            <td id="kalb_taa"></td>
+            <td id="dimagh_taa"></td>
+            <td id="kamel_taa"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ث</td>
+            <td>500</td>
+            <td class = "x">*</td>
+            <td id="ttta"></td>
+            <td id="ttta23"></td>
+            <td id="nafs_ttta"></td>
+            <td id="dam_ttta"></td>
+            <td id="akl_ttta"></td>
+            <td id="koua_ttta"></td>
+            <td id="kolia_ttta"></td>
+            <td id="hassa_ttta"></td>
+            <td id="haraka_ttta"></td>
+            <td id="chahoua_ttta"></td>
+            <td id="kalb_ttta"></td>
+            <td id="dimagh_ttta"></td>
+            <td id="kamel_ttta"></td>
+        </tr>
+
+
+        <tr>
+            <td>خ</td>
+            <td>600</td>
+            <td class = "x">*</td>
+            <td id="kha"></td>
+            <td id="kha24"></td>
+            <td id="nafs_kha"></td>
+            <td id="dam_kha"></td>
+            <td id="akl_kha"></td>
+            <td id="koua_kha"></td>
+            <td id="kolia_kha"></td>
+            <td id="hassa_kha"></td>
+            <td id="haraka_kha"></td>
+            <td id="chahoua_kha"></td>
+            <td id="kalb_kha"></td>
+            <td id="dimagh_kha"></td>
+            <td id="kamel_kha"></td>
+        </tr>
+
+
+
+        <tr>
+            <td>ذ</td>
+            <td>700</td>
+            <td class = "x">*</td>
+            <td id="ddal"></td>
+            <td id="ddal25"></td>
+            <td id="nafs_ddal"></td>
+            <td id="dam_ddal"></td>
+            <td id="akl_ddal"></td>
+            <td id="koua_ddal"></td>
+            <td id="kolia_ddal"></td>
+            <td id="hassa_ddal"></td>
+            <td id="haraka_ddal"></td>
+            <td id="chahoua_ddal"></td>
+            <td id="kalb_ddal"></td>
+            <td id="dimagh_ddal"></td>
+            <td id="kamel_ddal"></td>
+        </tr>
+
+
+        <tr>
+            <td>ظ</td>
+            <td>800</td>
+            <td class = "x">*</td>
+            <td id="ddda"></td>
+            <td id="ddda27"></td>
+            <td id="nafs_ddda"></td>
+            <td id="dam_ddda"></td>
+            <td id="akl_ddda"></td>
+            <td id="koua_ddda"></td>
+            <td id="kolia_ddda"></td>
+            <td id="hassa_ddda"></td>
+            <td id="haraka_ddda"></td>
+            <td id="chahoua_ddda"></td>
+            <td id="kalb_ddda"></td>
+            <td id="dimagh_ddda"></td>
+            <td id="kamel_ddda"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>غ</td>
+            <td>900</td>
+            <td class = "x">*</td>
+            <td id="gaa"></td>
+            <td id="gaa28"></td>
+            <td id="nafs_gaa"></td>
+            <td id="dam_gaa"></td>
+            <td id="akl_gaa"></td>
+            <td id="koua_gaa"></td>
+            <td id="kolia_gaa"></td>
+            <td id="hassa_gaa"></td>
+            <td id="haraka_gaa"></td>
+            <td id="chahoua_gaa"></td>
+            <td id="kalb_gaa"></td>
+            <td id="dimagh_gaa"></td>
+            <td id="kamel_gaa"></td>
+        </tr>
+
+
+        <tr>
+            <td>ش</td>
+            <td>1000</td>
+            <td class = "x">*</td>
+            <td id="chine"></td>
+            <td id="chine21"></td>
+            <td id="nafs_chine"></td>
+            <td id="dam_chine"></td>
+            <td id="akl_chine"></td>
+            <td id="koua_chine"></td>
+            <td id="kolia_chine"></td>
+            <td id="hassa_chine"></td>
+            <td id="haraka_chine"></td>
+            <td id="chahoua_chine"></td>
+            <td id="kalb_chine"></td>
+            <td id="dimagh_chine"></td>
+            <td id="kamel_chine"></td>
+        </tr>
+
+ 
+
+
+ 
+    </main>
+ 
+ 
+
+   
+</div>
+
+
+
+    <script src="app.js"></script>
+    
+
+</body>
+</html>
